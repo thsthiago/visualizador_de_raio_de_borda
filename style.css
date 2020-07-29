@@ -6,7 +6,6 @@
 }
 
 html,body{
-  height: 100%;
   width: 100%;
   background-color: #253031;
 }
@@ -32,8 +31,8 @@ section h1{
 }
 
 .box-border{
-  width: 70%;
-  padding-top: 40%;
+  width: 60%;
+  padding-top: 35%;
   margin: 0 auto;
   background: linear-gradient(to bottom right, #315659, #BCAB79); 
   position: relative;
@@ -42,10 +41,11 @@ section h1{
 section input{
   border: none;
   background-color: #C6E0FF;
-  width: 80px;
+  width: 50px;
   padding: 7px;
   outline: none;
   border-radius: 5px;
+  text-align: center;
 }
 
 section input::-webkit-inner-spin-button{
@@ -55,23 +55,32 @@ section input::-webkit-inner-spin-button{
 section input[name=top-left]{
   position: absolute;
   top: -15px;
-  left: -90px;
+  left: -60px;
 }
 
 section input[name=top-right]{
   position: absolute;
   top: -15px;
-  right: -90px;
+  right: -60px;
 }
 
 section input[name=bottom-left]{
   position: absolute;
   bottom: -15px;
-  left: -90px;
+  left: -60px;
 }
 
 section input[name=bottom-right]{
   position: absolute;
   bottom: -15px;
-  right: -90px;
+  right: -60px;
+}
+
+.value-borda{
+  background-color: #C6E0FF;
+  width: 40%;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
 }
