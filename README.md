@@ -1,6 +1,6 @@
 # Visualizador de Raio de Borda
 
-Projeto desenvolvido com a ideia do repositório: [App Ideas Collection](https://github.com/florinpop17/app-ideas);
+Projeto desenvolvido com a ideia do repositório: [App Ideas Collection](https://github.com/florinpop17/app-ideas)
 
 __Nível:__ 1-Iniciante
 
