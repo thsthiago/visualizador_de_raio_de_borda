@@ -30,8 +30,8 @@ bottomRight.onchange = function() {
 }
 
 function borderRadius() {
-  let p = document.createElement('p');
+  let p = document.querySelector('.value-borda p');
   let conteudo = document.createTextNode(`border-radius: ${topLeft.value}px ${topRight.value}px ${bottomRight.value}px ${bottomLeft.value}px;`);
+  p.innerHTML = '';
   p.appendChild(conteudo);
-  valueBox.appendChild(p);
 }
